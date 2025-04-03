@@ -2,7 +2,7 @@ import tweepy
 from kafka import KafkaProducer
 import json
 
-BEARER_TOKEN = 'YOUR_TWITTER_BEARER_TOKEN'
+BEARER_TOKEN = 'AAAAAAAAAAAAAAAAAAAAAPN90QEAAAAA56sxoEmraIYGCEQNIX3OTZfqbHY%3D7PnU6s7LX1KniiUdjMh0lglrSJXohL8mf68q2eUKQIksWjICqq'  //Use Your Token
 producer = KafkaProducer(bootstrap_servers='localhost:9092',
                          value_serializer=lambda v: json.dumps(v).encode('utf-8'))
 
