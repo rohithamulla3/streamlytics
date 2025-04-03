@@ -1,0 +1,9 @@
+1. Go to http://localhost:3000
+2. Login with admin/admin
+3. Add Elasticsearch as data source:
+   - URL: http://elasticsearch:9200
+   - Index: tweets_sentiment
+4. Create a dashboard with:
+   - Sentiment over time (line chart)
+   - Sentiment breakdown (bar chart)
+   - Tweet frequency (time series)
