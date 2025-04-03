@@ -1,0 +1,13 @@
+PUT /tweets_sentiment
+{
+  "mappings": {
+    "properties": {
+      "tweet_id":     { "type": "keyword" },
+      "text":         { "type": "text" },
+      "user_location":{ "type": "keyword" },
+      "sentiment":    { "type": "keyword" },
+      "created_at":   { "type": "date" },
+      "topic":        { "type": "keyword" }
+    }
+  }
+}
